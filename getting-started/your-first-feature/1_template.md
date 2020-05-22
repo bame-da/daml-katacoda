@@ -9,7 +9,7 @@ To implement this workflow, let’s start by adding the new data for messages.
 
 - After that click on the button `Copy to Editor` to add the code snippet to the end of the `User.daml` file. Indentation is important: it should be at the top level like the original User template.
 
-<pre class="file" data-filename="daml/User.daml" data-target="append">
+<pre class="file" data-filename="daml/User.daml" data-target="replace">
 template Message with
     sender: Party
     receiver: Party
