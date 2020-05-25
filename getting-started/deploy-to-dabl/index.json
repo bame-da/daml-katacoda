@@ -44,7 +44,9 @@
       }
     },
     "environment": {
-        "uilayout": "terminal-iframe"
+        "uilayout": "terminal-iframe",
+        "dashboards": [
+          {"name": "project.DABL", "href": "https://projectdabl.com"}]
     },
     "backend": {
       "imageid": "daml-sdk-env"
